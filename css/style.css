@@ -20,7 +20,7 @@
 /* HOME */
 
 #header{
-     background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(../img/banner.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.5), #00968700), url(../img/banner.jpg);
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -48,6 +48,7 @@
 .banner-text p{
      font-size: 20px;
      font-style: italic;
+     padding-top: 180px;
 }
 
 .banner-btn{
@@ -450,6 +451,8 @@ hr{
 
 .title-text-4 h1{
      font-size: 50px;
+     z-index: 1;
+     position: relative;
 }
 
 .footer-row{
@@ -495,7 +498,7 @@ hr{
 
 .footer-img{
      max-width: 370px;
-     opacity: 0.1;
+     opacity: 0.4;
      position: absolute;
      left: 50%;
      top: 35%;
